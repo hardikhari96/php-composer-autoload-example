@@ -1,0 +1,14 @@
+{
+    "name": "autoloadtest/composer",
+    "description": "autoload test",
+    "authors": [{
+        "name": "Harikrushna",
+        "email": "harikrushnappatel@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hari\\": "./Inc"
+        }
+    }
+}
